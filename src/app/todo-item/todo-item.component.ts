@@ -9,7 +9,12 @@ export class TodoItemComponent implements OnInit {
 
   constructor() { }
 
+  todo = {}
+
+  item = 'fix car'
+
   ngOnInit() {
   }
+
 
 }
